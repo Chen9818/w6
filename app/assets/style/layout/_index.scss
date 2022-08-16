@@ -1,5 +1,32 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.home-bg{
+  background: $primary;
+  height: 680px;
+  .container{
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 66px;
+    background-image: url("../../../assets/images/bg_home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .home-title{
+      padding: 80px 45px;
+      border: 1px solid #fff;
+      background: $primary;
+    } 
+    h1{
+      background: linear-gradient(180deg,$info2,$info);
+      background-clip:text;
+      color:transparent;
+      // font-size: 48px;
+    }
+  }
+}
+
+.class{
+  background: $secondary;
+  color: $white;
+  .item{
+    border: 1px solid #fff;
+  }
 }

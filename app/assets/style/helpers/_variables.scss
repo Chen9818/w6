@@ -67,10 +67,11 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #00cc99; // $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #1C1C1C; // $blue !default;
+$secondary:     #2D2D2D !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          #62DB54 !default;
+$info2:          #09ACF5 !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -250,11 +251,14 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  1: $spacer * .25,//4
+  2: $spacer * .5,//8
+  3: $spacer * .75,//12
+  4: $spacer,
+  5: $spacer * 1.25,//20
+  6: $spacer * 1.5,//24
+  7: $spacer * 2,//32
+  8: $spacer * 3,//48
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -441,7 +445,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
+$h1-font-size:                $font-size-base * 3 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;

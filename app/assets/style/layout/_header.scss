@@ -1,0 +1,26 @@
+.header{
+    background: $secondary;
+    .logo{
+        display: block;
+        width: 175px;
+        height: 42px;
+    }
+    ul{
+        list-style-type: none;
+    }
+}
+.header-decoration{
+    .info{
+        height: 2px;
+        background: $info;
+    }
+    .info2{
+        height: 2px;
+        background: $info2;
+    }
+}
+
+.footer{
+    background: $secondary;
+    text-align: center;
+}
