@@ -13,7 +13,12 @@
       padding: 80px 45px;
       border: 1px solid #fff;
       background: $primary;
-    } 
+    }
+    .square {
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+    }
     h1{
       background: linear-gradient(180deg,$info2,$info);
       background-clip:text;
@@ -26,7 +31,105 @@
 .class{
   background: $secondary;
   color: $white;
+  // text-align:justify
+  // height: 424px;
+  h2{
+    position: relative;
+    padding-bottom: 16px;
+    &::after{
+      content: "";
+      width: 50px;
+      height: 1px;
+      background: $info;
+      // top: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+  }
   .item{
-    border: 1px solid #fff;
+    width: 306px;
+    height: 264px;
+    &:hover{
+      border: 1px solid $info;
+      border-radius: 12px;
+      span{
+        color: aqua;
+        // background: blue;
+      }
+    }
+  }
+}
+
+.schedule{
+  background: $primary;
+  color: $white;
+  // height: 490px;
+  h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    // text-align: center;
+    &::after{
+      content: "";
+      width: 50px;
+      height: 1px;
+      background: $info;
+      // top: 0;
+      bottom: 0;
+      position: absolute;
+    }
+  } 
+  .schedule-text{
+    border-radius: 12px;
+    position: relative;
+  }
+  .t-1::before{
+    content: "01";
+    font-size: 48px;
+    text-align: center;
+    top: -36px;
+    left: 48px;
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    background: $primary;
+    color: $info;
+  }
+  .t-2::before{
+    content: "02";
+    font-size: 48px;
+    text-align: center;
+    top: -36px;
+    left: 48px;
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    background: $primary;
+    color: $info;
+  }
+  .t-3::before{
+    content: "03";
+    font-size: 48px;
+    text-align: center;
+    top: -36px;
+    left: 48px;
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    background: $primary;
+    color: $info;
+  }
+  .t-4::before{
+    content: "04";
+    font-size: 48px;
+    text-align: center;
+    top: -36px;
+    left: 48px;
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    background: $primary;
+    color: $info;
   }
 }

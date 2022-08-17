@@ -7,7 +7,11 @@ current: index
 
 <div class="home-bg">
   <div class="container d-flex justify-content-center align-items-center">
-    <div class="home-title text-center">
+    <div class="home-title text-center position-relative">
+      <div class="square position-absolute top-0 start-0 translate-middle"></div>
+      <div class="square position-absolute top-0 start-100 translate-middle"></div>
+      <div class="square position-absolute top-100 start-0 translate-middle"></div>
+      <div class="square position-absolute top-100 start-100 translate-middle"></div>
       <h1 class="fs-0">
         全台最豐富的程式家教<br><span class="text-white fs-0">
           在實踐中化理想為現實
@@ -18,33 +22,74 @@ current: index
   </div>
 </div>
 
-<div class="class">
+<div class="class d-flex align-items-center">
   <div class="container">
-    <div class="row">
+    <div class="row text-center d-flex align-items-center">
       <div class="col-md-3">
-        <h2>
+        <h2 class="text-start">
           手把手帶你<br>親自到家教到會
         </h2>
       </div>
       <div class="col-md-3">
-        <div class="item">
-          <span></span>
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <span class="material-symbols-outlined">
+            code
+            </span>
           <h3>超過 100 種專業課程</h3>
           <p>學習標準化的電腦形式語言 培養運算思維和邏輯素養</p>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="item">
-          <span></span>
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <span class="">
+            <embed src="./assets/images/rocket_launch_black_24dp.svg" type="">
+            </span>
           <h3>高效學習</h3>
           <p>客製化專屬課表 讓學習變簡單</p>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="item">
-          <span></span>
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <span class="">
+            <embed src="./assets/images/location_on_black_24dp.svg" type="">
+            </span>
           <h3>指定地點</h3>
           <p>專業老師到你指定的地點 一對一高效學習</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="schedule">
+  <div class="schedule-title text-center">
+    <h2 class="pb-4">預期上課流程</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="schedule-text t-1 p-8 border border-white">
+          <h3>預約</h3>
+          <p>線上預約指定課程與老師<br> 由老師安排專屬課程</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="schedule-text t-2 p-8 border border-white">
+          <h3>付款</h3>
+          <p>支援各種支付方式<br> 提供12期分期付款</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="schedule-text t-3 p-8 border border-white">
+          <h3>上課</h3>
+          <p>地點由您指定<br> 密集性一對一教學</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="schedule-text t-4 p-8 border border-white">
+          <h3>提供滿意度</h3>
+          <p>提供課程滿意度及回饋<br> 讓我們持續成長與進步</p>
         </div>
       </div>
     </div>
