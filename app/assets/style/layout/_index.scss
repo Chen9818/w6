@@ -133,3 +133,14 @@
     color: $info;
   }
 }
+
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // 防止圖片變形
+}
