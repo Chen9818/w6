@@ -5,21 +5,29 @@
 // console.log("123")
 // alert("1111
 
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 
-const swiper = new Swiper('.swiper', {
-  // 分頁   
-  pagination: {
-    el: '.swiper-pagination',
+const swiper = new Swiper(".swiper", {
+  autoplay: {
+      disableOnInteraction: false,
+      delay: 0
   },
-  // 左右箭頭    
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  // 滾動條
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    draggable: true,
-  },
+  speed: 3000,
+  loop: true,
+  watchSlidesProgress: true,
+  // spaceBetween: 16,
+  // slidesPerView: 10,
+  //多欄
+  breakpoints: {
+      480: {
+          slidesPerView: 3
+      },
+      768: {
+          slidesPerView: 5
+      },
+      1200: {
+          slidesPerView: 10
+      }
+  }
+
 });
