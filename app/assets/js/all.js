@@ -31,3 +31,23 @@ const swiper = new Swiper(".swiper", {
   }
 
 });
+
+// Swiper
+const swiper2 = new Swiper('.swiper2', {
+    // Optional parameters
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
