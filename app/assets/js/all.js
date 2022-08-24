@@ -33,7 +33,7 @@ const swiper = new Swiper(".swiper", {
 });
 
 // Swiper
-const swiper2 = new Swiper('.swiper2', {
+const swiperComment = new Swiper('.swiper-comment', {
     // Optional parameters
     effect: 'fade',
     fadeEffect: {
