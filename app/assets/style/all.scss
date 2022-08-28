@@ -1,10 +1,10 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-// @import "../../../node_modules/swiper/swiper-vars.scss";
 // @import "../../../node_modules/swiper/swiper.scss";
 
 @import './base';
 @import './layout/header';
 @import './layout/footer';
-@import './layout/index'
+@import './layout/page/index';
+@import './layout/page/class'

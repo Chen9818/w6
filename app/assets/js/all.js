@@ -7,6 +7,8 @@
 
 // import Swiper from 'swiper';
 
+AOS.init();
+
 const swiper = new Swiper(".swiper", {
   autoplay: {
       disableOnInteraction: false,
@@ -23,10 +25,10 @@ const swiper = new Swiper(".swiper", {
           slidesPerView: 3
       },
       768: {
-          slidesPerView: 5
+          slidesPerView: 4
       },
       1200: {
-          slidesPerView: 10
+          slidesPerView: 5
       }
   }
 
@@ -51,3 +53,4 @@ const swiperComment = new Swiper('.swiper-comment', {
       prevEl: '.swiper-button-prev',
     },
   });
+

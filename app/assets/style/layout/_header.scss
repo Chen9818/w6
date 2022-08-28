@@ -1,5 +1,7 @@
 .header{
+    height: 90px;
     background: $secondary;
+    position: relative;
     .logo{
         display: block;
         width: 175px;
@@ -8,19 +10,20 @@
     ul{
         list-style-type: none;
     }
-}
-.header-decoration{
-    .info{
+    &::after{
+        content: "";
+        width: 100%;
         height: 2px;
-        background: $info;
-    }
-    .info2{
-        height: 2px;
-        background: $info2;
+        position: absolute;
+        background-image: linear-gradient(90deg, $info 50%, $info2 50%);
+        top: 90px;
+        right: 0;
+        left: 0;
     }
 }
 
-.footer{
-    background: $secondary;
-    text-align: center;
+@media (max-width: 992px) {
+    .nav-item{
+        margin: 0;
+    }
 }
