@@ -13067,7 +13067,7 @@ fieldset:disabled .btn {
   height: 100%;
   padding-top: 75px;
   padding-bottom: 66px;
-  background-image: url("../../../images/bg_home.jpg");
+  background-image: url("../images/bg_home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13330,7 +13330,7 @@ fieldset:disabled .btn {
 .info .info-item {
   width: 25%;
   height: 500px;
-  background-image: url("../../../images/info01.jpg");
+  background-image: url("../images/info01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13375,15 +13375,15 @@ fieldset:disabled .btn {
 }
 
 .info .item-2 {
-  background-image: url("../../../images/info02.jpg");
+  background-image: url("../images/info02.jpg");
 }
 
 .info .item-3 {
-  background-image: url("../../../images/info03.jpg");
+  background-image: url("../images/info03.jpg");
 }
 
 .info .item-4 {
-  background-image: url("../../../images/info04.jpg");
+  background-image: url("../images/info04.jpg");
 }
 
 @media (max-width: 1399.98px) {
@@ -13470,7 +13470,7 @@ fieldset:disabled .btn {
 
 .comment {
   padding: 80px 0;
-  background-image: url("../../../images/bg_share.jpg");
+  background-image: url("../images/bg_share.jpg");
   height: 733px;
   background-repeat: no-repeat;
   background-position: center;
