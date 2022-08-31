@@ -1,13 +1,11 @@
 "use strict";
 
-// $(function() {
-//   console.log('Hello Bootstrap5');
-// });
-// console.log("123")
-// alert("1111
-// import Swiper from 'swiper';
+var _swiper = _interopRequireDefault(require("swiper"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
 AOS.init();
-var swiper = new Swiper(".swiper", {
+var swiper = new _swiper["default"](".swiper", {
   autoplay: {
     disableOnInteraction: false,
     delay: 0
@@ -15,8 +13,6 @@ var swiper = new Swiper(".swiper", {
   speed: 3000,
   loop: true,
   watchSlidesProgress: true,
-  // spaceBetween: 16,
-  // slidesPerView: 10,
   //多欄
   breakpoints: {
     480: {
@@ -29,9 +25,8 @@ var swiper = new Swiper(".swiper", {
       slidesPerView: 5
     }
   }
-}); // Swiper
-
-var swiperComment = new Swiper('.swiper-comment', {
+});
+var swiperComment = new _swiper["default"]('.swiper-comment', {
   // Optional parameters
   effect: 'fade',
   fadeEffect: {
