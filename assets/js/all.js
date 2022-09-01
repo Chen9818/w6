@@ -1,11 +1,8 @@
 "use strict";
 
-var _swiper = _interopRequireDefault(require("swiper"));
+AOS.init(); // import Swiper from 'swiper';
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-AOS.init();
-var swiper = new _swiper["default"](".swiper", {
+var swiper = new Swiper(".swiper", {
   autoplay: {
     disableOnInteraction: false,
     delay: 0
@@ -26,7 +23,7 @@ var swiper = new _swiper["default"](".swiper", {
     }
   }
 });
-var swiperComment = new _swiper["default"]('.swiper-comment', {
+var swiperComment = new Swiper('.swiper-comment', {
   // Optional parameters
   effect: 'fade',
   fadeEffect: {
