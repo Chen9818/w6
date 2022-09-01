@@ -1,6 +1,6 @@
 AOS.init();
 
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 
 const swiper = new Swiper(".swiper", {
   autoplay: {
